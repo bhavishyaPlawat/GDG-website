@@ -1,0 +1,31 @@
+/* Color accent utilities */
+.accent-blue { color: var(--color-blue); }
+.accent-red { color: var(--color-red); }
+.accent-green { color: var(--color-green); }
+.accent-yellow { color: var(--color-yellow); }
+
+/* Hover transitions */
+.hover-accent-blue:hover { color: var(--color-blue); }
+.hover-accent-red:hover { color: var(--color-red); }
+.hover-accent-green:hover { color: var(--color-green); }
+.hover-accent-yellow:hover { color: var(--color-yellow); }
+
+/* Gradient backgrounds */
+.bg-gdsc-gradient {
+  background: linear-gradient(90deg,
+    var(--color-blue),
+    var(--color-red),
+    var(--color-yellow),
+    var(--color-green)
+  );
+}
+
+/* Accent buttons */
+.btn-accent {
+  @apply px-4 py-2 font-semibold rounded-md text-white transition;
+  background: var(--color-blue);
+}
+.btn-accent:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}

@@ -1,0 +1,32 @@
+:root {
+  /* GDSC color palette (Google colors) */
+  --color-blue: #4285F4;
+  --color-red: #EA4335;
+  --color-yellow: #FBBC05;
+  --color-green: #34A853;
+
+  /* Neutral UI base colors */
+  --color-bg: #ffffff;
+  --color-bg-alt: #f8f9fa;
+  --color-text: #202124;
+  --color-border: #dadce0;
+
+  /* Shadows & radius */
+  --shadow-md: 0 4px 14px rgba(60, 64, 67, 0.1);
+  --radius-md: 0.75rem;
+}
+
+.dark {
+  --color-bg: #202124;
+  --color-bg-alt: #303134;
+  --color-text: #e8eaed;
+  --color-border: #5f6368;
+}
+
+/* global classes */
+.bg-surface { background-color: var(--color-bg); }
+.bg-surface-alt { background-color: var(--color-bg-alt); }
+.text-primary { color: var(--color-text); }
+.border-base { border-color: var(--color-border); }
+.rounded-md { border-radius: var(--radius-md); }
+.shadow-base { box-shadow: var(--shadow-md); }

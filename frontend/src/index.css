@@ -1,0 +1,22 @@
+@import "./styles/variables.css";
+@import "./styles/neon.css";
+@import "./styles/transitions.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base tweaks */
+:root{ --gdsc-blue:#4285F4; --gdsc-text:#202124; }
+
+@layer base {
+  html,body,#root { height:100%; }
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  .dark body { background-color: #202124; color: #e8eaed; }
+}
+
+/* helpers */
+.card-shadow{ box-shadow:0 6px 18px rgba(60,64,67,0.08); }
+.line-clamp-3{ overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; }

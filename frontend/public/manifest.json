@@ -1,0 +1,9 @@
+{
+  "name": "GDG-WEBSITE",
+  "short_name": "GDSC",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    { "src": "/logo.png", "sizes": "192x192", "type": "image/png" }
+  ]
+}
