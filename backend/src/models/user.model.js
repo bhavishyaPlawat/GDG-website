@@ -1,16 +1,22 @@
 const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
   email: {
     type: String,
-    require: true,
+    required: true,
     unique: true,
   },
   password: {
-    type: string,
-    require: true,
+    type: String,
+    // required: true,
+    // In Google Response, no password is shared, so we cant store pass in db (validate new sign up and check for password)
   },
   role: {
+    type: String,
     enum: ["user", "admin"],
     default: "user",
   },
