@@ -16,9 +16,8 @@ export default function HeroSection(){
         <div className="bg-gray-50 dark:bg-gray-800 rounded p-6 card-shadow">
           <h4 className="font-semibold">Upcoming Focus</h4>
           <ul className="mt-3 text-sm text-gray-700 dark:text-gray-300 space-y-2">
-            <li>Web Development Bootcamp</li>
-            <li>Design Thinking Workshop</li>
-            <li>Mobile App Build Night</li>
+            <li>Cyber Security Workshop</li>
+            <li>Hackathons</li>
           </ul>
         </div>
       </div>

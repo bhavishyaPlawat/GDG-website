@@ -9,10 +9,6 @@ export default function Highlights(){
         <h4 className="font-semibold">Hackathons</h4>
         <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">Team up and ship projects.</p>
       </div>
-      <div className="bg-white dark:bg-gdsc-surface p-4 rounded card-shadow">
-        <h4 className="font-semibold">Mentorship</h4>
-        <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">Guidance from seniors and industry.</p>
-      </div>
     </div>
   )
 }
